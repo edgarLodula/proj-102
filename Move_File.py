@@ -14,7 +14,7 @@ for file_name in list_of_files:
 
     if extension=="":
         continue
-    if extension in ['.jpg','.png','.jpeg','.gif','.jfif']:
+    if extension in [ '.txt', '.doc', '.docx', '.pdf']:
         path1=from_dir+'/'+file_name
         path2=to_dir
         path3=to_dir+'/'+ file_name
